@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { nunito } from '@/styles/fonts';
+import { Header } from '@/components/Header';
+import { StickyPart } from '@/components/StickyPart';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -14,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={nunito.className}>{children}</body>
+      <body className={nunito.className}>
+        <Header />
+        <StickyPart />
+        {children}
+      </body>
     </html>
   );
 }
