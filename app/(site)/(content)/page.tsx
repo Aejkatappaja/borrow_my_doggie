@@ -11,14 +11,14 @@ export default function Home() {
           className='object-cover'
         />
       </div>{' '}
-      <div className='relative h-[30rem] w-full '>
+      {/* <div className='relative h-[30rem] w-full '>
         <Image
           src='/images/girl-with-dog.jpg'
           fill
           alt='lol'
           className='object-cover'
         />
-      </div>
+      </div> */}
     </main>
   );
 }
