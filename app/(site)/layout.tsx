@@ -1,5 +1,5 @@
 import { Header } from '@/components/Header';
-import { StickyPart } from '@/components/StickyPart';
+import { StickyHeaderPart } from '@/components/sticky-header-part';
 
 export default function SiteLayout({
   children,
@@ -9,7 +9,7 @@ export default function SiteLayout({
   return (
     <div className=''>
       <Header />
-      <StickyPart />
+      <StickyHeaderPart />
       {children}
     </div>
   );
