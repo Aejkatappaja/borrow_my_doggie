@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { nunito } from '@/styles/fonts';
-import { Header } from '@/components/Header';
-import { StickyPart } from '@/components/StickyPart';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
