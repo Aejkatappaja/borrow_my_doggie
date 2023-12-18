@@ -4,4 +4,6 @@ export const links = {
   trust_security: '/confiance-et-securite',
   users_testimonials: '/temoignages',
   our_story: '/notre-histoire',
+  contact_us: '/contactez-nous',
+  member_space: '/home',
 };

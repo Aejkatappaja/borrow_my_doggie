@@ -1,5 +1,8 @@
 export const strings = {
-  header: {},
+  header: {
+    contact: 'Contactez-nous',
+    member: 'Espace Membre',
+  },
   sticky_header_part: {
     borrow: 'Emprunter un toutou',
     entrust: 'Confier votre toutou',
