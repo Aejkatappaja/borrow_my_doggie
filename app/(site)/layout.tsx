@@ -1,4 +1,4 @@
-import { Header } from '@/components/Header';
+import { Header } from '@/components/header';
 import { StickyHeaderPart } from '@/components/sticky-header-part';
 
 export default function SiteLayout({
