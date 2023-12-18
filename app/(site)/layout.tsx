@@ -7,7 +7,7 @@ export default function SiteLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className=''>
+    <div className='flex flex-col'>
       <Header />
       <StickyHeaderPart />
       {children}
