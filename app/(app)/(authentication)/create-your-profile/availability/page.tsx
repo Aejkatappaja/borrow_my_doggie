@@ -1,7 +1,3 @@
-import React from 'react';
-
-interface AvailabilityProps {}
-
-export const Availability: React.FC<AvailabilityProps> = ({}) => {
+export default function Availability() {
   return <div>Availability</div>;
-};
+}

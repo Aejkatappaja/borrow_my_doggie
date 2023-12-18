@@ -1,7 +1,3 @@
-import React from 'react';
-
-interface DescriptionProps {}
-
-export const Description: React.FC<DescriptionProps> = ({}) => {
+export default function Description() {
   return <div>Description</div>;
-};
+}

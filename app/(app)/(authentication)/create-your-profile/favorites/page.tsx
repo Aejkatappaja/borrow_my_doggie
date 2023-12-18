@@ -1,7 +1,3 @@
-import React from 'react';
-
-interface FavoritesProps {}
-
-export const Favorites: React.FC<FavoritesProps> = ({}) => {
+export default function Favorites() {
   return <div>Favorites</div>;
-};
+}

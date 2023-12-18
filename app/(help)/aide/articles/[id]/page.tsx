@@ -1,7 +1,3 @@
-import React from 'react';
-
-interface ArticleProps {}
-
-export const Article: React.FC<ArticleProps> = ({}) => {
+export default function Article({ params }: { params: { id: string } }) {
   return <div>Article</div>;
-};
+}

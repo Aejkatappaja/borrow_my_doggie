@@ -1,7 +1,3 @@
-import React from 'react';
-
-interface AddressPhotoProps {}
-
-export const AddressPhoto: React.FC<AddressPhotoProps> = ({}) => {
+export default function AddressPhoto() {
   return <div>AddressPhoto</div>;
-};
+}

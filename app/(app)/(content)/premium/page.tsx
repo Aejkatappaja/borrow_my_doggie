@@ -1,7 +1,3 @@
-import React from 'react';
-
-interface PremiumProps {}
-
-export const Premium: React.FC<PremiumProps> = ({}) => {
+export default function Premium() {
   return <div>Premium</div>;
-};
+}

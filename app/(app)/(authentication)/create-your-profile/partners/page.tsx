@@ -1,7 +1,3 @@
-import React from 'react';
-
-interface PartnersProps {}
-
-export const Partners: React.FC<PartnersProps> = ({}) => {
+export default function Partners() {
   return <div>Partners</div>;
-};
+}
