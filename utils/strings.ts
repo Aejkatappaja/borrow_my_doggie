@@ -5,7 +5,7 @@ export const strings = {
     entrust: 'Confier votre toutou',
     security: 'Sécurité',
     testimonials: 'Témoignages',
-    history: 'Notre histoire',
+    story: 'Notre histoire',
     button: 'Inscription gratuite',
   },
 };
