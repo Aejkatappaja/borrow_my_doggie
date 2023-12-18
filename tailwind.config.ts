@@ -26,6 +26,7 @@ const config: Config = {
       },
       fontFamily: {
         doggo: ['doggo', 'sans-serif'],
+        nunito: ['nunito', 'sans-serif'],
       },
     },
   },
