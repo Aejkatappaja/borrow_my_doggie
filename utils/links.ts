@@ -6,4 +6,5 @@ export const links = {
   our_story: '/notre-histoire',
   contact_us: '/contactez-nous',
   member_space: '/home',
+  register: '/sign_up',
 };
