@@ -1,5 +1,5 @@
-import { Header } from '@/components/header';
-import { StickyHeaderPart } from '@/components/sticky-header-part';
+import { Header } from '@/components/site/header';
+import { StickyHeaderPart } from '@/components/site/sticky-header-part';
 
 export default function SiteLayout({
   children,

@@ -9,11 +9,12 @@ import { useMobileMenuStore } from '@/store/useMobileMenuStore';
 
 export const Header: React.FC = () => {
   const router = useRouter();
-  const { handleMobileMenuVisible } = useMobileMenuStore();
+  const { handleMobileMenuVisible, setIsMobileMenuVisible } =
+    useMobileMenuStore();
 
   const handleRedirectCloseMobileMenu = () => {
     router.push('/');
-    handleMobileMenuVisible();
+    setIsMobileMenuVisible(false);
   };
 
   return (

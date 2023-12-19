@@ -1,8 +1,5 @@
-import { strings } from '@/utils/strings';
-import Image from 'next/image';
-
 import { Metadata } from 'next';
-import { RegisterCard } from '@/components/site/main_page/register-card';
+import { FirstSection } from '@/components/site/main_page/first-section';
 
 export const metadata: Metadata = {
   title: 'Emprunte mon toutou • Partagez le bonheur des toutous !',
@@ -10,37 +7,10 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const {
-    main_page: { title, subtitle },
-  } = strings;
-
   return (
     <main className=' flex flex-col overflow-hidden'>
-      <div className='relative flex h-[30rem] w-full'>
-        {' '}
-        <Image
-          src='/images/girl-with-dog.jpg'
-          alt='happy-girl-holding-his-dog'
-          fill
-          priority
-          className='-z-10 object-cover object-left'
-        />
-        <section className='flex w-full justify-center px-6 md:w-full md:justify-normal md:px-0 md:pl-6 xl:mx-auto xl:w-full xl:max-w-[1200px] xl:pl-0'>
-          <div className='flex h-full w-[36rem] flex-col pt-12 text-white '>
-            <h1 className='text-center text-4xl font-extrabold tracking-tight'>
-              {title}
-            </h1>
-            <h2 className='pt-2 text-center text-xl font-bold tracking-wide'>
-              {subtitle}
-            </h2>
-            <p className='py-2 text-center font-bold text-green-500'>
-              TRUSTPILOT WIDGET
-            </p>
-            <RegisterCard />
-          </div>
-        </section>
-      </div>{' '}
-      <div className='mt-36 md:mt-12'></div>
+      <FirstSection />
+      <div className='mt-36 h-96 md:mt-12'></div>
     </main>
   );
 }

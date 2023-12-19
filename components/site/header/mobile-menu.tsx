@@ -1,7 +1,7 @@
 import React from 'react';
-import SignUpLink from '../sticky-header-part/sign-up-link';
+import SignUpLink from '../ui/sign-up-link';
 import { MobileLinksFullList as links } from '../sticky-header-part/links';
-import NavLinks from '../sticky-header-part/nav-links';
+import NavLinks from '../ui/nav-links';
 import { useMobileMenuStore } from '@/store/useMobileMenuStore';
 
 export const Mobilemenu: React.FC = () => {
@@ -11,7 +11,7 @@ export const Mobilemenu: React.FC = () => {
     <>
       <div
         className={`${
-          isMobileMenuVisible ? 'flex flex-col pb-2 md:hidden' : 'hidden'
+          isMobileMenuVisible ? 'flex flex-col pb-3 md:hidden' : 'hidden'
         } `}
       >
         {links?.map((item) => {

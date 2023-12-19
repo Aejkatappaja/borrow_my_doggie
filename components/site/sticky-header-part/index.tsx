@@ -3,8 +3,8 @@ import React from 'react';
 import { StickyHeaderPartLinks as links } from './links';
 
 import { raleway } from '@/styles/fonts';
-import SignUpLink from './sign-up-link';
-import NavLinks from './nav-links';
+import SignUpLink from '../ui/sign-up-link';
+import NavLinks from '../ui/nav-links';
 
 export const StickyHeaderPart: React.FC = () => {
   return (
