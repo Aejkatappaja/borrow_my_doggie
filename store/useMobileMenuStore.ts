@@ -6,6 +6,7 @@ export type State = {
 
 export type Action = {
   handleMobileMenuVisible: () => void;
+  setIsMobileMenuVisible: (isMobileMenuVisible: boolean) => void;
 };
 
 export const initialState: State = {
@@ -14,6 +15,9 @@ export const initialState: State = {
 
 export const useMobileMenuStore = create<State & Action>()((set) => ({
   ...initialState,
+
+  setIsMobileMenuVisible: (isMobileMenuVisible: boolean) =>
+    set(() => ({ isMobileMenuVisible })),
 
   handleMobileMenuVisible: () =>
     set((state) => ({ isMobileMenuVisible: !state.isMobileMenuVisible })),
