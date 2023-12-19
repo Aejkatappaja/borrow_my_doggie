@@ -28,6 +28,9 @@ const config: Config = {
         doggo: ['doggo', 'sans-serif'],
         nunito: ['nunito', 'sans-serif'],
       },
+      screens: {
+        md: '883px',
+      },
     },
   },
   plugins: [],
