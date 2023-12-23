@@ -10,12 +10,12 @@ export const RegisterCard: React.FC = () => {
         select,
         first_choice,
         second_choice,
-
         span_start,
         members_number,
         span_end,
       },
     },
+    sticky_header_part: { button },
   } = strings;
 
   return (
@@ -23,7 +23,9 @@ export const RegisterCard: React.FC = () => {
       <h1 className='font-bold tracking-wide'>{select}</h1>
       <InputRadioUserType id='first_choice' label={first_choice} />
       <InputRadioUserType id='second_choice' label={second_choice} />
-      <SignUpLink variant='registerCard' />
+      <SignUpLink variant='registerCard' href='/sign-up'>
+        {button}
+      </SignUpLink>
       <p className='text-center text-sm'>
         {span_start}
         <strong>{members_number} </strong>

@@ -1,18 +1,13 @@
-import { links } from '@/utils/links';
-import { strings } from '@/utils/strings';
 import Link from 'next/link';
-interface ISignUpLink {
+interface ISignUpLink extends React.PropsWithChildren {
   variant?: 'mobileMenu' | 'registerCard';
+  href?: string;
 }
 
-export default function SignUpLink({ variant }: ISignUpLink) {
-  const {
-    sticky_header_part: { button },
-  } = strings;
-  const { register } = links;
+export default function SignUpLink({ href = '/', ...props }: ISignUpLink) {
   let className: string;
 
-  switch (variant) {
+  switch (props.variant) {
     case 'mobileMenu':
       className =
         'pl-5 rounded-none border-none px-0 py-6 font-doggo text-xl text-dark-red bg-white';
@@ -28,8 +23,8 @@ export default function SignUpLink({ variant }: ISignUpLink) {
   }
 
   return (
-    <Link href={register} className={`${className}`}>
-      {button}
+    <Link href={href} className={`${className}`}>
+      {props.children}
     </Link>
   );
 }

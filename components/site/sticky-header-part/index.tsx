@@ -5,8 +5,12 @@ import { StickyHeaderPartLinks as links } from './links';
 import { raleway } from '@/styles/fonts';
 import SignUpLink from '../ui/sign-up-link';
 import NavLinks from '../ui/nav-links';
+import { strings } from '@/utils/strings';
 
 export const StickyHeaderPart: React.FC = () => {
+  const {
+    sticky_header_part: { button },
+  } = strings;
   return (
     <div
       className={`${raleway.className} top-0 z-50 hidden w-screen  bg-bright-red md:sticky md:flex md:px-3`}
@@ -16,7 +20,7 @@ export const StickyHeaderPart: React.FC = () => {
           const { label, href } = item;
           return <NavLinks key={label} href={href} label={label} />;
         })}
-        <SignUpLink />
+        <SignUpLink href='/sign-up'>{button}</SignUpLink>
       </nav>
     </div>
   );

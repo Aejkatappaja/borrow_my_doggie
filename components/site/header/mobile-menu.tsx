@@ -3,9 +3,13 @@ import SignUpLink from '../ui/sign-up-link';
 import { MobileLinksFullList as links } from '../sticky-header-part/links';
 import NavLinks from '../ui/nav-links';
 import { useMobileMenuStore } from '@/store/useMobileMenuStore';
+import { strings } from '@/utils/strings';
 
 export const Mobilemenu: React.FC = () => {
   const { handleMobileMenuVisible, isMobileMenuVisible } = useMobileMenuStore();
+  const {
+    sticky_header_part: { button },
+  } = strings;
 
   return (
     <>
@@ -26,7 +30,9 @@ export const Mobilemenu: React.FC = () => {
             />
           );
         })}
-        <SignUpLink variant={'mobileMenu'} />
+        <SignUpLink variant={'mobileMenu'} href='/sign-up'>
+          {button}
+        </SignUpLink>
       </div>
     </>
   );
