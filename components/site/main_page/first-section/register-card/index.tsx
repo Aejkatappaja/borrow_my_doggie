@@ -1,7 +1,7 @@
 import React from 'react';
 import { InputRadioUserType } from './input-radio-user-type';
 import { strings } from '@/utils/strings';
-import SignUpLink from '../../ui/sign-up-link';
+import SignUpLink from '../../../ui/sign-up-link';
 
 export const RegisterCard: React.FC = () => {
   const {
