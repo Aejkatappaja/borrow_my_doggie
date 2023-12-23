@@ -1,5 +1,5 @@
 import React from 'react';
-import { RegisterCard } from '../register-card';
+import { RegisterCard } from './register-card';
 import Image from 'next/image';
 import { strings } from '@/utils/strings';
 Image;
