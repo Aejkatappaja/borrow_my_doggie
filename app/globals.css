@@ -12,10 +12,6 @@
   background-repeat: repeat;
   background-position-x: center;
   background-position-y: top;
-  background-image: linear-gradient(
-      to bottom,
-      #ffffff,
-      #ffffff1a
-    ),
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff1a),
     url('/images/pattern-doggo.png') !important;
 }
