@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { FirstSection } from '@/components/site/main_page/first-section';
 import SecondSection from '@/components/site/main_page/second-section';
 import ThirdSection from '@/components/site/main_page/third-section';
+import FourthSection from '@/components/site/main_page/fourth-section';
 
 export const metadata: Metadata = {
   title: 'Emprunte mon toutou • Partagez le bonheur des toutous !',
@@ -14,6 +15,7 @@ export default function Home() {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
+      <FourthSection />
       {/* <div className='mt-64 h-96 md:mt-12'></div> */}
     </main>
   );
