@@ -1,5 +1,4 @@
 export const strings = {
-  site: 'Emprunte Mon Toutou',
   header: {
     contact: 'Contactez-nous',
     member: 'Espace Membre',
@@ -38,6 +37,14 @@ export const strings = {
       second_string: 'toutou, pour son plus grand bonheur !',
       paragraph:
         "Vous partez en weekend, en vacances, vous avez besoin de quelqu'un pour sortir votre chien de temps en temps pendant la journée ? Des passionnés gardent votre chien gratuitement, juste pour le plaisir. Votre toutou sera heureux et vous aurez l'esprit tranquille grâce à nos mesures de sécurité.",
+    },
+    third_section: {
+      heading: 'Présentation du concept',
+      title: 'Emprunte Mon Toutou',
+    },
+    fourth_section: {
+      heading: 'Comment ça marche',
+      title: 'Simplicité et génerosité',
     },
   },
 };
