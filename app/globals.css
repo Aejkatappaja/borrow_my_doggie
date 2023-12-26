@@ -15,3 +15,7 @@
   background-image: linear-gradient(to bottom, #ffffff, #ffffff1a),
     url('/images/pattern-doggo.png') !important;
 }
+
+.list-tick {
+  list-style-image: url('/images/tick.svg');
+}
