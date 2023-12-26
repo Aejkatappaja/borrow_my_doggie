@@ -14,7 +14,7 @@ export default function SignUpLink({ href = '/', ...props }: ISignUpLink) {
       break;
     case 'registerCard':
       className =
-        'py-3 text-center rounded-2xl border bg-dark-red text-lg font-extrabold text-white hover:text-bright-red border-dark-red hover:bg-white';
+        'py-3 text-center rounded-2xl border px-6 bg-dark-red text-lg font-extrabold text-white hover:text-bright-red border-dark-red hover:bg-white';
       break;
     default:
       className =
