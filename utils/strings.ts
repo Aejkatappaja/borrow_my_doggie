@@ -84,10 +84,57 @@ export const strings = {
 
           second_title:
             "L'inscription et la création de votre profil sont entièrement gratuites.",
-          first_text:
-            "Vous pouvez ensuite choisir de devenir membre premiummoins de 5 € par mois, afin de bénéficier d'une assurance vétérinaire, de la messagerie illimitée, de la ligne d'assistance vétérinaire 24h/24 et d'une assurance dommages.",
-          second_text:
-            'Votre cotisation est garantie satisfait ou remboursée pendant 1 mois, pour ne plus avoir à payer un pet sitter ou un chenil !',
+          text: [
+            {
+              text: "Vous pouvez ensuite choisir de devenir membre premiummoins de 5 € par mois, afin de bénéficier d'une assurance vétérinaire, de la messagerie illimitée, de la ligne d'assistance vétérinaire 24h/24 et d'une assurance dommages.",
+            },
+            {
+              text: 'Votre cotisation est garantie satisfait ou remboursée pendant 1 mois, pour ne plus avoir à payer un pet sitter ou un chenil !',
+            },
+          ],
+        },
+        borrower: {
+          header: 'Emprunteurs',
+          first_title: 'Rejoignez notre communauté et :',
+          list: [
+            {
+              li: 'Passez des moments magiques avec un toutou (ou plusieurs !), juste par plaisir',
+            },
+            {
+              li: "Bénéficiez de l'affection, des jeux, de l'amour du toutou emprunté, pour vous ou/et votre famille",
+            },
+            {
+              li: 'Plus de sorties nature et d’exercice grâce à votre nouvel ami',
+            },
+          ],
+          second_title:
+            'Inscrivez-vous et créez votre profil gratuitement pour voir les boules de poils près de chez vous.',
+          text: [
+            {
+              text: "Vous pouvez ensuite choisir de devenir membre premium moins de 2 € par mois, afin de bénéficier d'une assurance vétérinaire, de la messagerie illimitée, de la ligne d'assistance vétérinaire 24h/24, de la validation d'identité et d'une assurance dommages pour votre domicile.",
+            },
+            {
+              text: 'Les cotisations sont garanties “satisfait ou remboursé” pendant 1 mois; elles permettent de financer les mesures de sécurité et de faire vivre la plateforme.',
+            },
+          ],
+        },
+        doggos: {
+          header: 'Toutous',
+          first_title:
+            'Faites en sorte que votre maître vous inscrive à notre communauté et gagnez-y :',
+          list: [
+            {
+              li: 'Des nouveaux amis humains',
+            },
+            {
+              li: "Encore plus d'amour, d'exercice et de jeux !",
+            },
+          ],
+          text: [
+            {
+              text: "Emprunte Mon Toutou est parfait pour tous les toutous, même pour les timides, et permet de passer du temps avec de nouveaux amis et de passer des moments agréables lorsque votre maître n'est pas disponible (pour vous emmener promener, jouer, pendant les vacances, etc.).",
+            },
+          ],
         },
       },
     },
