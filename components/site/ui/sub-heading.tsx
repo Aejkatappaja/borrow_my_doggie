@@ -5,5 +5,5 @@ interface SubHeadingProps {
 }
 
 export const SubHeading: React.FC<SubHeadingProps> = ({ text }) => {
-  return <strong className='text-2xl font-bold tracking-tight'>{text}</strong>;
+  return <strong className='text-2xl tracking-tight'>{text}</strong>;
 };
