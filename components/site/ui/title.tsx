@@ -13,7 +13,7 @@ export const Title: React.FC<TitleProps> = ({ text, center, variant }) => {
     text_center = 'text-center';
   }
   if (variant === 'card') {
-    text_color = 'text-white';
+    text_color = 'text-white text-lg';
   }
   return (
     <h1 className={`${text_center} font-doggo text-3xl ${text_color}`}>
