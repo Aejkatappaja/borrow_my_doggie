@@ -16,7 +16,7 @@ export const Title: React.FC<TitleProps> = ({ text, center, variant }) => {
     text_color = 'text-white text-lg';
   }
   return (
-    <h1 className={`${text_center} font-doggo text-3xl ${text_color}`}>
+    <h1 className={`${text_center} font-doggo md:text-3xl ${text_color}`}>
       {text}
     </h1>
   );
