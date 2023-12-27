@@ -15,7 +15,7 @@ export default async function SixthSection() {
 
   return (
     <div className='flex flex-col items-center justify-center gap-10 bg-light-grey px-6 py-12 pb-14 font-nunito md:mt-0 md:px-0'>
-      <Title text={strings.main_page.sixth_section.title} />
+      <Title text={strings.main_page.sixth_section.title} center size='xl' />
       <div className='flex flex-col gap-6 md:flex-row md:gap-2 md:px-6'>
         <Card color='bg-turquoise' data={data1} />
         <Card color='bg-light-green' data={data2} />
