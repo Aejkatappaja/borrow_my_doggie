@@ -25,7 +25,7 @@ interface CardProps {
 export const Card: React.FC<CardProps> = ({ data, color }) => {
   const { header, first_title, list, second_title, text } = data;
   return (
-    <div className='max-w-[390px] rounded-2xl border md:h-[705px] '>
+    <div className='max-w-[390px] rounded-2xl border bg-white md:h-[705px]'>
       <header className={`rounded-t-2xl py-4 ${color}`}>
         <Title center variant='card' text={header} />
       </header>
