@@ -12,7 +12,7 @@ export default function FifthSection() {
         height={100}
         alt='ppl-happy-with-dogs'
       />
-      <div className='space-y-4 md:w-1/3'>
+      <div className='space-y-4 md:w-[450px] xl:w-1/3'>
         <Title text={strings.main_page.fifth_section.title} />
         <p className='pb-2 font-nunito text-sm'>
           Tous les jours de nouveaux toutous se joignent à nous ! Emprunte Mon
