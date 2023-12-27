@@ -13,6 +13,7 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'girl-dog': "url('/images/girl-with-dog.jpg')",
+        footer: "url('/images/illustration-footer-garde-chien.svg')",
       },
       colors: {
         'light-grey': '#F6F6F6',
@@ -23,6 +24,7 @@ const config: Config = {
         'bright-red': '#FF2745',
         'dark-red': '#E01B3F',
         'header-red': '#E0193E',
+        'footer-color': '#efeeee',
       },
       fontFamily: {
         doggo: ['doggo', 'sans-serif'],
