@@ -6,6 +6,7 @@ import FourthSection from '@/components/site/main_page/fourth-section';
 import FifthSection from '@/components/site/main_page/fifth-section';
 import SixthSection from '@/components/site/main_page/sixth-section/page';
 import SeventhSection from '@/components/site/main_page/seventh-section';
+import EighthSection from '@/components/site/main_page/eighth-section';
 
 export const metadata: Metadata = {
   title: 'Emprunte mon toutou • Partagez le bonheur des toutous !',
@@ -22,7 +23,7 @@ export default function Home() {
       <FifthSection />
       <SixthSection />
       <SeventhSection />
-      {/* <div className='mt-64 h-96 md:mt-12'></div> */}
+      <EighthSection />
     </main>
   );
 }
