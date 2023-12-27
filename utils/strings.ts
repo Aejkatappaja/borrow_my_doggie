@@ -138,5 +138,13 @@ export const strings = {
         },
       },
     },
+    seventh_section: {
+      france_3:
+        'Le site est sécurisé et il représente une réelle économie pour les propriétaires, contrairement aux pensions pour animaux ou aux services de gardiennage.',
+      france_bleu:
+        "La plateforme Emprunte Mon Toutou permet aux amoureux des chiens de se rencontrer et de s'aider sans se ruiner.",
+      femme_actuelle:
+        'Emprunte mon toutou propose une solution pratique pour ceux qui peinent à trouver des solutions de garde.',
+    },
   },
 };
