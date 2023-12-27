@@ -146,5 +146,9 @@ export const strings = {
       femme_actuelle:
         'Emprunte mon toutou propose une solution pratique pour ceux qui peinent à trouver des solutions de garde.',
     },
+    eighth_section: {
+      title: 'Rejoignez la toutousphère !',
+      text: "Que ce soit pour de simples promenades ou des moments de jeux, pour quelques heures ou pour plusieurs jours pendant les vacances, partagez l'amour des toutous en rejoignant une communauté de passionnés proches de chez vous !",
+    },
   },
 };
