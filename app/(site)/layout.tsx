@@ -1,3 +1,4 @@
+import Footer from '@/components/site/footer';
 import { Header } from '@/components/site/header';
 import { StickyHeaderPart } from '@/components/site/sticky-header-part';
 
@@ -11,6 +12,7 @@ export default function SiteLayout({
       <Header />
       <StickyHeaderPart />
       {children}
+      <Footer />
     </div>
   );
 }
